@@ -1,0 +1,16 @@
+.nft{
+  margin: 10px auto;
+  border-radius: 10px;
+
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  &:hover{
+    box-shadow: 0 20px 32px 0 rgba(0,0,0,0.2),0 12px 40px 0 rgba(0,0,0,0.19);
+  }
+
+img{
+  max-width: 50%;
+  display: block;
+  margin: 10px auto;
+}
+}

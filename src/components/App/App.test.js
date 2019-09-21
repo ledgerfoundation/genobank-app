@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Index from './index';
+import App from "react-scripts/template-typescript/src/App";
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
