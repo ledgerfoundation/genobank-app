@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import 'antd/dist/antd.css';
 
 import AppLayout from "../AppLayout";
@@ -10,6 +10,12 @@ const {Header,Content} = Layout
 const { Search } = Input;
 
 const Dashboard = () => {
+    const [nftArray, setNftArray] = useState([{
+        id:123,date: '1/12/19', sampleId:456
+    },{
+        id:124,date: '1/12/19', sampleId:457
+    }]);
+
 
 
     return (
@@ -49,7 +55,17 @@ const Dashboard = () => {
             <Layout>
                 <Content className={'nft-list'}>
                     <Row>
-                        <Nft id={123} date={'12/12/12'} />
+                        {nftArray.map((nft,index)=>{
+                            return(<>
+                                <Nft id={nft.id} date={nft.date} sampleId={nft.sampleId} />
+                                    <Nft id={nft.id} date={nft.date} sampleId={nft.sampleId} />
+                                    <Nft id={nft.id} date={nft.date} sampleId={nft.sampleId} />
+                                    <Nft id={nft.id} date={nft.date} sampleId={nft.sampleId} />
+                                </>
+
+                            )
+                        })}
+
 
                     </Row>
                 </Content>

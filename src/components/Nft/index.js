@@ -4,7 +4,7 @@ import nft from '../../assets/images/nft.svg'
 import './style.scss'
 
 const {Meta} = Card;
-const Nft = ({id, date}) => {
+const Nft = ({id, date,sampleId}) => {
     const handleClick = e => {
         // console.log(e)
     }
@@ -22,7 +22,7 @@ const Nft = ({id, date}) => {
 
                     <img src={nft} alt=""/>
                     <p>
-                        sample Id: #321
+                        sample Id: #{sampleId}
                     </p>
                     <p>
                         Sample Status: Pending
