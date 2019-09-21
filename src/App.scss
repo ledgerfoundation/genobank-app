@@ -1,10 +1,19 @@
 .App{
   .layout-content{
+    .ant-layout-content{
+
     background-color: #fff;
+    }
     padding: 24px 0;
+
   }
+
   aside{
-    //background-color: ;
+    background-color: white;
+    div.ant-layout-sider-trigger{
+      position: static;
+    }
+
   }
 
 }
