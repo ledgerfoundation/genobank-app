@@ -4,12 +4,13 @@ import './App.scss';
 import Dashboard from "../Dashboard";
 
 
-function Index() {
+function App({history}) {
+    console.log("here")
   return (
     <div className="App">
-      <Dashboard />
+      <Dashboard history={history} />
     </div>
   );
 }
 
-export default Index;
+export default App;
