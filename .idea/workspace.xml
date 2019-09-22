@@ -2,15 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f70fa2b-31bb-42e2-946d-ce02537e2312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AppRouter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/Address.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/BasicERC721.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/Counters.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/ERC165.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/ERC721.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/ERC721Enumerable.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/ERC721Metadata.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/IERC165.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/IERC721.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/IERC721Enumerable.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/IERC721Metadata.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/IERC721Receiver.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/Migrations.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/contracts/SafeMath.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/migrations/1_initial_migration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/migrations/2_ERC721_migration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NFTTruffle/truffle-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web3Connections/BasicERC721.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web3Connections/initals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/crypticzombie.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/genobank.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppRouter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppRouter/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +87,7 @@
       <updated>1569080552011</updated>
       <workItem from="1569080553251" duration="9511000" />
       <workItem from="1569126707131" duration="6999000" />
+      <workItem from="1569146180429" duration="215000" />
     </task>
     <servers />
   </component>

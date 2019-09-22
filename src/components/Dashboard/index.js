@@ -14,7 +14,6 @@ const {Search} = Input;
 const Dashboard = ({history}) => {
 
     useEffect(() => {
-        console.log("hello");
         torus.init().then(() => {
 
             torus.login().then(() => {
