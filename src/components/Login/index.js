@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Button, Card, Col, Layout, Row, Spin} from "antd";
+import { Card, Col, Layout, Row, Spin} from "antd";
 import google from '../../assets/images/btn_google_signin_light_normal_web.png'
 import './style.scss'
 import {init, torus} from "../../helpers";

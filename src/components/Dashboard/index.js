@@ -5,6 +5,7 @@ import AppLayout from "../AppLayout";
 import {Col, Layout, Row, Input, Button, Icon} from "antd";
 import Nft from "../Nft";
 import {torus} from "../../helpers";
+import Loader from "../Loader";
 
 const {Header, Content} = Layout;
 
@@ -13,12 +14,23 @@ const {Search} = Input;
 
 const Dashboard = ({history}) => {
 
+    const [nftArray, setNftArray] = useState([{
+        id: 123, date: '1/12/19', sampleId: 456
+    }, {
+        id: 124, date: '1/12/19', sampleId: 457
+    }]);
+    const [loading, setLoading] = useState(true)
     useEffect(() => {
+        setLoading(true)
         torus.init().then(() => {
 
             torus.login().then(() => {
 
-                torus.getUserInfo().then(console.log).catch(err => {
+                torus.getUserInfo()
+                    .then(userInfo => {
+                        console.log(userInfo)
+                        setLoading(false)
+                    }).catch(err => {
                     history.push('/login')
                 })
             })
@@ -26,11 +38,11 @@ const Dashboard = ({history}) => {
 
 
     }, []);
-    const [nftArray, setNftArray] = useState([{
-        id: 123, date: '1/12/19', sampleId: 456
-    }, {
-        id: 124, date: '1/12/19', sampleId: 457
-    }]);
+    useEffect(()=>{
+        if(loading){
+
+        }
+    })
 
 
     return (
@@ -82,6 +94,8 @@ const Dashboard = ({history}) => {
                     </Row>
                 </Content>
             </Layout>
+            {loading?<Loader/>:null}
+
 
         </AppLayout>
 
